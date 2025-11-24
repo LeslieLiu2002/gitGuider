@@ -2,7 +2,7 @@
 # 1.配置
 ```
 git config --global user.name "用户名"
-git config --global user.email github注册的邮箱 //不用双引号
+git config --global user.email github注册的邮箱
 ```
 # 2.新建、管理远程仓库
 ## 2.1.新建远程仓库
@@ -77,7 +77,7 @@ git clone --branch [分支名] [http地址] [指定目录]
 克隆指定分支的命令
 ## 5.2.更新操作
 ```
-git pull
+git pull [远程仓库名] [要拉取的分支名]
 ```
 当远程仓库（GitHub）文件发生变化，可通过**更新操作更新本地仓库副本**  
 更新本地仓库副本时，需要更新的文件本地也修改了则**发生更新冲突**从而失败（可以理解为本地文件和远程文件都和上个版本不一样时发生）
