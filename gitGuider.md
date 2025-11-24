@@ -119,7 +119,7 @@ git commit -m "更新日志"
 <img src="./image/status.jpg" width="50%">  
 ## 第三步：提交远程仓库
 ```
-git push [远程仓库名] [远程分支名]
+git push [远程仓库名] [本地分支名]
 ```
 
 - 将本地仓库的修改同步到远程仓库  
